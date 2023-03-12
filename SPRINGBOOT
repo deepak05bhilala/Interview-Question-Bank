@@ -1,0 +1,19 @@
+SpringBoot
+. what springboot does?
+. how springboot use Single Pattern ?
+. what is dependency injections ?
+. what is bean?
+. what @SpringbootApplication Annotation do?
+. what @Component do?
+. what @Service / @Repository/ @NoArgumentConstructor/ @AllArgumentConstructor/ @Data /  @Configurations / @Transaction do?
+. what is the Role of POM.xml file ?
+. how to create your Own JAr file to use it some other micro-service or project? (using jfrog)
+. what happen when you reload maven ?
+. what happen when you do 'mvn clean install -DskipTests'
+. responsibility of controller ? service? dao ?
+. how does spring support composition more-over inheritance?
+. did you use any pattern in your code ?
+    basic patterns are:
+    1. factory pattern
+    2. singleton pattern
+    3. builder pattern (needed when you want to initialise object with variable parameter)

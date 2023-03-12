@@ -1,0 +1,25 @@
+DATABASE
+. Relational vs Non-Relational Database
+. when to use sql vs nosql?
+. how join works? left-outer-join vs right-outer-join vs full-outer join?
+. how you deal with redundancy?
+. Acid properties with Example?
+. how Database lock works?
+. what happen when two threads try to change same row in db?
+. Indexing
+. structure of database in tree form ?
+. how it search data on indexed vs non-indexed column?
+. how you index a columns?
+. time complexity in inserting, deleting, updating data in db ? think using structure of db in tree form?
+. when to choose table or data replication vs hitting API and get data?
+. what is sharding vs partitioning?
+. what is horizontal shard? -->implementation
+. what is vertical shards? -->implementation
+. let say you have 3 replication of database and a
+  single db has 3 shards, how much server you will be needed ?
+. normalization
+. what are the common points you think while creating schema?
+. what do you understand by consistency vs Availability?
+. what happen when you right queries in Transaction block?
+. when we do roll-back ?
+. delete vs drop vs truncate?

@@ -1,0 +1,12 @@
+Kafka
+1. what is kafka?
+2. what is topic ?
+3 .what is partition ?
+4. what is consumer-groups ? consumer?
+5. how kafka manages that how many messages you read earlier?
+6. master - slave broker ?
+7. how to partition can be assigned by kafka(implicitly) vs by developer(Explicitly) ?
+8. what problems it solve?
+9. partition Algorithm of Kafka?
+10. when and where to use kafka?
+11. how will you manage order of messages in kafka?

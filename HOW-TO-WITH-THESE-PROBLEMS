@@ -1,0 +1,20 @@
+How to deal with these problems?
+    Concurrency issues can occurs at various places like:
+    1. when two thread are trying to update same row in database?
+
+    2. when two threads try to increment a variable at same time? what issue will you face?
+        data inconsistency?
+
+    3. what are the limitations of using lock ?
+
+    4. what happen when your one thread is using resource and others thread are at waiting state? what you do in such case?
+
+    5. suppose you have a website and the hompage is common for every user, everytime you need to hits some API for getting data of homepage, now let say you have 10 million users so the API hits were very high may lead your db under heavy load how you will deal with this?
+
+    6. how s3 bucket stores data, why we are not using it database? when to use s3 vs Db?
+
+    7. how do different server running on production communicate to reach other?
+
+    8. how does load balancer works?
+
+    9. how do you avoid redandant code, without modifying existing code?

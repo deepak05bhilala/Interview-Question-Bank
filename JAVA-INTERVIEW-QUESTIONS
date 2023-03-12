@@ -1,0 +1,36 @@
+JAVA Interview Questions
+. Advantage of JAVA vs any language you know already?
+. What things JVM handles?
+. why java is platform independent?
+. Multi - threading? ->Implement karke bhi dekhna hai
+. what happen when multiple thread tries to access same resource ?
+. how to deal with concurrency ?
+    different ways
+. synchronization
+. bufferReader vs Scanner vs inputStreamReader ?
+. static method vs normal method diff ?
+. final keyword in java?
+. how to make a variable constant in java ?
+. what do you mean by thread safe?
+. why String is immutable? how its thread safe?
+. data member vs  member method in term of thread safety?
+. static method vs normal method thread safety?
+. what is string literal pool?
+. string str = "ABC"  VS  String str = new String("ABC") diff ? where these two string will take space in memory?
+. synchronous vs asynchronous communication or data transfer ?
+    example kafka vs API calls
+. stack memory vs heap memory ? what these memory stores ? how they share memory?
+. do every thread takes different stack memory ? how ?
+. what is garbage collector (gc)?
+    how gc finds garbage? different algorithms? use case?
+. what are checked Exception vs Unchecked Exception ?
+. how hashMap is worked internally ?
+    Time complexity
+        1. inserting an Element
+        2 .finding an element
+        3. deleting an Element
+        4. handling collision --> separate chaining
+. try, catch, finally ?
+. did you write test cases in your programs?
+    how do you mock the functions using mockito?
+. final vs finalise vs finally ?

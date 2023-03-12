@@ -1,0 +1,17 @@
+REST API
+. how you do versioning?
+    example :
+        @RequestMapping("api/v1/learning") ----> @RequestMapping("api/v2/learning")
+. how to write the API Contracts ?
+        REST API documentation
+    what you pass in 'param vs body vs headers' in following ?
+    . get API
+    . post API
+    . put API
+    . patch API
+    . Delete API
+
+    diff b/w put and patch
+. let say your response is too big to show our user , how you will manage to show result in
+    that case? [pagination --> see its implementation]
+. https vs http?
