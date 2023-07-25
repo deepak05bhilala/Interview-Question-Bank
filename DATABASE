@@ -1,25 +1,74 @@
 DATABASE
-. Relational vs Non-Relational Database
+. sql vs nosql?
+    https://www.geeksforgeeks.org/difference-between-sql-and-nosql/
+
 . when to use sql vs nosql?
+    https://www.red-gate.com/simple-talk/databases/nosql/how-to-choose-between-sql-and-nosql-databases/
+
+
 . how join works? left-outer-join vs right-outer-join vs full-outer join?
-. how you deal with redundancy?
+    https://learnsql.com/blog/sql-joins-types-explained/
+
 . Acid properties with Example?
+    https://www.scaler.com/topics/dbms/acid-properties-in-dbms/
+
 . how Database lock works?
+    https://medium.com/inspiredbrilliance/what-are-database-locks-1aff9117c290
+
+
 . what happen when two threads try to change same row in db?
-. Indexing
+    https://blog.zestmoney.in/handling-concurrent-updates-with-optimistic-and-pessimistic-locking-in-jpa-c26d0b6855e7
+
+. Indexing? how it takes memory in database? advantages and disadvantages?
+    https://www.scaler.com/topics/sql/advantages-and-disadvantages-of-indexing-in-sql/
+
+
 . structure of database in tree form ?
-. how it search data on indexed vs non-indexed column?
+    https://www.techtarget.com/searchdatamanagement/definition/tree-structure#:~:text=Tree%20structure%20properties&text=Every%20edge%20directly%20or%20indirectly,the%20tree%20%22order.%22.
+
+. how you will search data on indexed vs non-indexed column?
+    eg : binary search vs linear search (depending on type of indexing you choose)
+
 . how you index a columns?
+    https://www.javatpoint.com/how-to-create-index-in-mysql
+
 . time complexity in inserting, deleting, updating data in db ? think using structure of db in tree form?
-. when to choose table or data replication vs hitting API and get data?
+    try it your self.
+
+. you dont have your own database, but you freequently need data from a particular talbe of that database, what wiil you choose?
+    eg: table migration to your service  vs hitting API and get data?
+
 . what is sharding vs partitioning?
-. what is horizontal shard? -->implementation
-. what is vertical shards? -->implementation
-. let say you have 3 replication of database and a
-  single db has 3 shards, how much server you will be needed ?
-. normalization
+    https://www.singlestore.com/blog/database-sharding-vs-partitioning-whats-the-difference/
+
+. what is horizontal shard vs vertical shards?
+    https://www.linkedin.com/advice/0/what-trade-offs-between-horizontal-vertical-sharding
+
+. normalization?
+https://www.javatpoint.com/dbms-normalization 
+
 . what are the common points you think while creating schema?
+
+    1. index column
+    2. avoiding redundancy
+    3. bridge tables
+    etc...
+
+
 . what do you understand by consistency vs Availability?
-. what happen when you right queries in Transaction block?
+        https://towardsdatascience.com/cap-theorem-and-distributed-database-management-systems-5c2be977950e#:~:text=CAP%20Theorem%20is%20a%20concept,on%20our%20unique%20use%20case.
+
+. what are different level of transactions?
+    https://www.geeksforgeeks.org/transaction-isolation-levels-dbms/
+
 . when we do roll-back ?
+    https://dba.stackexchange.com/questions/167422/sql-transactions-when-do-i-roll-back
+
 . delete vs drop vs truncate?
+    https://www.scaler.com/topics/difference-between-delete-drop-and-truncate/
+
+. dirty Read vs phantom read vs repeatable read ?
+    https://jennyttt.medium.com/dirty-read-non-repeatable-read-and-phantom-read-bd75dd69d03a
+
+
+

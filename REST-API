@@ -1,17 +1,17 @@
-REST API
-. how you do versioning?
-    example :
-        @RequestMapping("api/v1/learning") ----> @RequestMapping("api/v2/learning")
-. how to write the API Contracts ?
-        REST API documentation
-    what you pass in 'param vs body vs headers' in following ?
-    . get API
-    . post API
-    . put API
-    . patch API
-    . Delete API
 
-    diff b/w put and patch
+. how to write the API Contracts ?
+    https://craftytechie.com/how-to-create-api-contract/#:~:text=Designing%20the%20API%20contract%20includes,integrate%2C%20and%20maintain%20your%20API.
+
+
+what you pass in 'param vs body vs headers' in following ?
+    https://codeal.medium.com/headers-vs-body-1d3e754020b2
+
+dif b/w put and patch?
+    https://www.geeksforgeeks.org/difference-between-put-and-patch-request/
+
 . let say your response is too big to show our user , how you will manage to show result in
-    that case? [pagination --> see its implementation]
+    that case? [pagination --> see its implementation] ?
+    https://developer.atlassian.com/server/confluence/pagination-in-the-rest-api/
+
 . https vs http?
+    https://www.geeksforgeeks.org/difference-between-http-and-https/

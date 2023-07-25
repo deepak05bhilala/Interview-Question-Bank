@@ -1,12 +1,28 @@
 Kafka
 1. what is kafka?
+    https://medium.com/swlh/apache-kafka-what-is-and-how-it-works-e176ab31fcd5
+
 2. what is topic ?
+    https://dattell.com/data-architecture-blog/what-is-a-kafka-topic/
+
 3 .what is partition ?
-4. what is consumer-groups ? consumer?
-5. how kafka manages that how many messages you read earlier?
-6. master - slave broker ?
-7. how to partition can be assigned by kafka(implicitly) vs by developer(Explicitly) ?
+    https://stackoverflow.com/questions/38024514/understanding-kafka-topics-and-partitions
+
+4. what is consumer-groups & consumer?
+    https://www.javatpoint.com/apache-kafka-consumer-and-consumer-groups
+
+5. how kafka manage track of how consumed messages?
+    https://www.oreilly.com/library/view/kafka-the-definitive/9781491936153/ch04.html
+
 8. what problems it solve?
+    find by yourself
+
 9. partition Algorithm of Kafka?
+    https://medium.com/@vladitech/partition-algorithm-basics-of-quick-sort-pivoting-286f97f251f1#:~:text=There%20is%20a%20given%20collection,apply%20the%20%E2%80%9CPartition%20Algorithm%E2%80%9D.&text=Pick%20an%20element%20(the%20PIVOT,pivot%20and%20greater%20than%20pivot).
+
 10. when and where to use kafka?
+    https://www.kai-waehner.de/blog/2020/10/20/apache-kafka-event-streaming-use-cases-architectures-examples-real-world-across-industries/
+
 11. how will you manage order of messages in kafka?
+    https://medium.com/latentview-data-services/how-to-use-apache-kafka-to-guarantee-message-ordering-ac2d00da6c22
+

@@ -1,36 +1,90 @@
 JAVA Interview Questions
 . Advantage of JAVA vs any language you know already?
+    https://www.tutorialspoint.com/which-is-better-java-or-python-and-how
+
 . What things JVM handles?
+    https://www.javatpoint.com/jvm-java-virtual-machine
+
 . why java is platform independent?
+    https://www.upgrad.com/blog/why-is-java-platform-independent-language/
+
 . Multi - threading? ->Implement karke bhi dekhna hai
+    https://www.tutorialspoint.com/java/java_multithreading.htm
+
 . what happen when multiple thread tries to access same resource ?
-. how to deal with concurrency ?
-    different ways
-. synchronization
+    you will get this solution in DATABASE file
+
+. how to deal with concurrency ?different ways?
+    solution -> synchronization keyword
+             --> async communication (using messaging queue)
+             --> using lock
+             --> atomic integer
+    
+
 . bufferReader vs Scanner vs inputStreamReader ?
+    https://www.geeksforgeeks.org/difference-between-scanner-and-bufferreader-class-in-java/
+    https://stackoverflow.com/questions/10067465/scanner-vs-inputstreamreader
+
 . static method vs normal method diff ?
+    https://www.scaler.com/topics/static-and-non-static-in-java/
+
+
 . final keyword in java?
+    https://www.javatpoint.com/final-keyword
+
 . how to make a variable constant in java ?
+    https://www.javatpoint.com/java-constant
+
+
 . what do you mean by thread safe?
+    https://www.geeksforgeeks.org/thread-safety-and-how-to-achieve-it-in-java/
+
 . why String is immutable? how its thread safe?
-. data member vs  member method in term of thread safety?
-. static method vs normal method thread safety?
+    https://www.baeldung.com/java-string-immutable#:~:text=Hence%20immutable%20objects%2C%20in%20general,are%20safe%20for%20multi%2Dthreading.
+
+
+. static method vs non-static method thread safety?
+    https://www.geeksforgeeks.org/thread-safety-and-how-to-achieve-it-in-java/
+
 . what is string literal pool?
+    https://www.scaler.com/topics/java/string-pool-in-java/
+
 . string str = "ABC"  VS  String str = new String("ABC") diff ? where these two string will take space in memory?
-. synchronous vs asynchronous communication or data transfer ?
-    example kafka vs API calls
+    https://www.scaler.com/topics/java/string-pool-in-java/
+
 . stack memory vs heap memory ? what these memory stores ? how they share memory?
+    https://www.geeksforgeeks.org/stack-vs-heap-memory-allocation/
+
 . do every thread takes different stack memory ? how ?
+    https://www.baeldung.com/cs/threads-sharing-resources
+
+
 . what is garbage collector (gc)?
-    how gc finds garbage? different algorithms? use case?
+    https://www.freecodecamp.org/news/garbage-collection-in-java-what-is-gc-and-how-it-works-in-the-jvm/
+
 . what are checked Exception vs Unchecked Exception ?
+    https://www.geeksforgeeks.org/checked-vs-unchecked-exceptions-in-java/
+
 . how hashMap is worked internally ?
     Time complexity
         1. inserting an Element
         2 .finding an element
         3. deleting an Element
         4. handling collision --> separate chaining
+
 . try, catch, finally ?
+    do it yourself
+
 . did you write test cases in your programs?
     how do you mock the functions using mockito?
+    https://www.javatpoint.com/mockito
+
 . final vs finalise vs finally ?
+    https://www.javatpoint.com/difference-between-final-finally-and-finalize
+
+. shallow copy vs deep copy? real world example ?
+    https://www.geeksforgeeks.org/difference-between-shallow-and-deep-copy-of-a-class/
+
+. how can you make your code testable?
+    https://www.freecodecamp.org/news/how-to-write-testable-code/
+

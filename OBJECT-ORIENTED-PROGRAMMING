@@ -1,14 +1,31 @@
 Object Oriented Programming?
-. 4 pillars
-    Real world examples of individual Pillar.
+    https://www.geeksforgeeks.org/introduction-of-object-oriented-programming/ 
+        Real world examples of individual Pillar.
+
 . abstraction vs inheritance?
+    https://pediaa.com/what-is-the-difference-between-abstraction-and-inheritance/#:~:text=The%20main%20difference%20between%20abstraction,is%20a%20major%20programming%20paradigm.
+
 . method overloading vs method overriding.
-. Super() method
+    https://www.geeksforgeeks.org/difference-between-method-overloading-and-method-overriding-in-java/
+
+
 . Types of Constructor?
+    https://www.c-sharpcorner.com/blogs/what-is-constructor-and-its-type
+
 . destructor ?
+    https://www.geeksforgeeks.org/destructors-c/
+
 . inheritance vs Composition?
+    https://www.infoworld.com/article/3409071/java-challenger-7-debugging-java-inheritance.html
+
 . Access modifiers ?
-. how to overload and override functions ?
+    https://www.javatpoint.com/access-modifiers
+
 . daimond shape ambiguity?
+https://www.javatpoint.com/what-is-diamond-problem-in-java
+
 . properties of interface ?
+https://www.tutorialspoint.com/java/java_interfaces.htm
+
 . abstraction vs interface? explain with real world example ?
+https://www.codeproject.com/Questions/43970/Real-world-examples-of-abstract-classes-and-interf

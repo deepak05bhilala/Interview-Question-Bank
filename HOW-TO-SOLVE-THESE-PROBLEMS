@@ -1,0 +1,23 @@
+
+Concurrency issues can occurs at various places like:
+1. when two thread are trying to update same row in database?
+https://itecnote.com/tecnote/java-how-to-properly-handle-two-threads-updating-the-same-row-in-a-database/
+
+2. when two threads try to increment a static variable at same time? what issue will you face?
+    data inconsistency?
+    https://stackoverflow.com/questions/69780928/how-to-solve-multiple-thread-static-variable-incrementation
+    
+
+3. what are the limitations of using lock ?
+https://flylib.com/books/en/2.558.1/disadvantages_of_locking.html
+
+4. what happen when your one thread is using resource and others thread are at waiting state? what you do in such case?
+above link will help here
+
+5. suppose you have a website and the hompage is common for every user, everytime you need to hits some API for getting data of homepage, now let say you have 10 million users so the API hits were very high may lead your db under heavy load how you will deal with this?
+https://www.tutorialspoint.com/What-is-caching
+
+6. how s3 bucket stores data, why we are not using it database? when to use s3 vs Db?
+https://medium.com/@alexbuzunov/what-is-the-difference-between-storage-s3-and-database-dynamodb-on-aws-b0b813ca62bd
+
+
